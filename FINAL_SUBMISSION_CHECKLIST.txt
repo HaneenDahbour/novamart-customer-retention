@@ -1,0 +1,37 @@
+NovaMart Final Submission Checklist
+===================================
+
+Required project files
+----------------------
+[ ] NovaMart_Final_Project.ipynb
+[ ] outputs/Clean_Historical_Customers.csv
+[ ] outputs/Clean_Current_Customers.csv
+[ ] outputs/NovaMart_Scored_Current_Customers.csv
+[ ] report/NovaMart_Final_Report.pdf
+[ ] README.md
+[ ] requirements.txt
+
+Final verified analytical results
+---------------------------------
+Historical cleaned shape: 1,200 x 20
+Current cleaned shape: 300 x 19
+Scored current shape: 300 x 26
+Final model: class-weighted Logistic Regression
+Held-out ROC-AUC: 0.7822
+Held-out recall: 0.6800
+Predicted current churners: 105
+Selected retention customers: 50
+Top-50 campaign cost: JD 1,000.00
+Expected customers retained: 13.35
+Expected saved profit: JD 8,609.35
+Expected net benefit: JD 7,609.35
+Recommended scenario: Top 50
+
+Before submission
+-----------------
+[ ] Open the notebook and confirm all outputs are visible.
+[ ] Run the notebook from top to bottom with zero errors.
+[ ] Confirm raw CSV files are unchanged.
+[ ] Confirm scored CSV contains all 300 customers and seven required added columns.
+[ ] Open the final PDF and inspect every page.
+[ ] Confirm GitHub main branch contains the final report, README, requirements and deliverables.
